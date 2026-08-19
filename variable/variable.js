@@ -5,7 +5,7 @@ accountCity = "karachi"
 
 
 
-// accountId = 2 // constant fix hota ha change nhi hota
+// accountId = 2 // const fix hota ha change nhi hota
 
 accountEmail = "ahmed@gmail.com"
 accountPassword = "22222"
