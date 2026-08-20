@@ -10,3 +10,5 @@ A collection of JavaScript practice exercises as I learn the fundamentals of Jav
  copy = ctrl + c 
  paste = ctrl + v
  undo = ctrl + z
+ cd <folder_name> = Next folder ma jane k lie
+ cd.. = back
