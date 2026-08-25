@@ -1,8 +1,8 @@
-    // convert the number to string
+// convert the number to string
 
 const a = 100  // 100 - number
 let stringA = String(a) // "100" - string
-console.log( stringA)
+console.log(stringA)
 console.log(typeof stringA);
 
 const b = 25.5 // 25.5 - number 
@@ -11,7 +11,6 @@ console.log(opt2)
 console.log(typeof opt2);
 
 const c = 0 // 0 - number 
-let opt3= String (c) //"0" - string
+let opt3 = String(c) //"0" - string
 console.log(opt3);
 console.log(typeof opt3);
-
