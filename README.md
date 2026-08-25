@@ -14,3 +14,4 @@ A collection of JavaScript practice exercises as I learn the fundamentals of Jav
 - cd <folder_name> = Next folder ma jane k lie
 - cd.. = back
 - format= shift + alt + f
+``  =  backticks
