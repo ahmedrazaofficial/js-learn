@@ -12,7 +12,8 @@ console.log(gameName);
 
 console.log(gameName.length);
 console.log(gameName.toUpperCase());
-console.log(gameName.charAt(0));console.log(gameName[6]);  // dono 1 he kam karta ha letter batata ha konsa kah per ha
+console.log(gameName.charAt(0));
+console.log(gameName[6]);  // dono 1 he kam karta ha letter batata ha konsa kah per ha
 console.log(gameName.indexOf('e')); // yah alphabet konsa number per ha yah batata ha
 
 

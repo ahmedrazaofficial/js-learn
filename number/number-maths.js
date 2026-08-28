@@ -5,7 +5,7 @@ const balance = new Number(1020)
 console.log(balance);
 
 console.log(balance.toString().length);
-console.log(balance.toFixed(3));
+console.log(balance.toFixed(3));  //yah decimal ka bad wale number ka liya use hota ha example 23.33232=>23.331
 
 const val = 8929.24738
 console.log(val.toPrecision(3));
@@ -28,8 +28,8 @@ console.log(Math.round(4.4)); //roundoff krdeta ha
 console.log(Math.round(4.6));
 console.log(Math.ceil(4.1));  //ceil yah bara he choose karega
 console.log(Math.floor(4.9));  // floor hamasha kam value choose karega
-console.log(Math.min(3,4,5,2,6,7,8));
-console.log(Math.max(3,4,5,2,6,7,8));
+console.log(Math.min(3, 4, 5, 2, 6, 7, 8));
+console.log(Math.max(3, 4, 5, 2, 6, 7, 8));
 console.log(Math.ceil(Math.random() * 6));
 
 console.log(Math.random());
