@@ -11,7 +11,6 @@ console.log("peice" ,peice);
 
 
 
-final =price*peice
 peice=5
 console.log("infinix",infinix);
 console.log("price",price*peice);

@@ -32,6 +32,7 @@ console.log("A", arr);
 const myn = arr.slice(0, 4)
 console.log(myn);
 console.log("b", arr);
+
 const myn2 =arr.splice(1,4)
 console.log("c", arr);
 console.log(myn2);
