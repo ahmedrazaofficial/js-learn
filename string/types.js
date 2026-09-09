@@ -36,3 +36,15 @@ console.log(gameName.split('-')); // yah takseem kardeta ha
 
 console.log(url.startsWith("https"));
 console.log(url.endsWith(".com"));
+
+
+
+let name = "ahmed"
+let age = 17
+console.log(`my name is ${name} and age :${age}`);
+console.log("my name is " + name + " and age : " + age);
+// my name is ahmed and age : 17
+// my name is ahmed and age :17
+
+// my name is - Hardcoded / Static
+// ${name} - Dynamic

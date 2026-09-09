@@ -38,26 +38,26 @@ console.log(arr);
 
 
 //7.
-// const boys=["anas","ahsan","ahmed"]
-// const girls=["jaweriya","kainat","mahnoor"]
-// console.log(boys.concat(girls));
+const boys=["anas","ahsan","ahmed"]
+const girls=["jaweriya","kainat","mahnoor"]
+console.log(boys.concat(girls));
 
-// //8.
-// const boy=["anas","ahsan","ahmed"]
-// const girl=["jaweriya","kainat","mahnoor"]
-// console.log([...boy,...girl]);
+//8.
+const boy=["anas","ahsan","ahmed"]
+const girl=["jaweriya","kainat","mahnoor"]
+console.log([...boy,...girl]);
 
-// //9.
-// const num=[1, 2, [3, 4], 5, [6, 7]]
-// console.log(num.flat(1));
+//9.
+const num=[1, 2, [3, 4], 5, [6, 7]]
+console.log(num.flat(1));
 
 
-// //10.
-// const naam="ahmed"
-// console.log(Array.from(naam));
-// price1=100
-// price2=200
-// price3=300
-// console.log(Array.of(price1,price2,price3));
+//10.
+const naam="ahmed"
+console.log(Array.from(naam));
+price1=100
+price2=200
+price3=300
+console.log(Array.of(price1,price2,price3));
 
 
