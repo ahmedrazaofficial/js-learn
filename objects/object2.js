@@ -55,4 +55,24 @@ console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 console.log(Object.hasOwn(tinderUser, 'isLoggedIn'));
 
 
+const course = {
+    coursename: "js in hindi",
+    price: 999,
+    courseinstrutor: "ahmed"
+}
+// course.courseinstrutor
+const { courseinstrutor: instructure } = course
+// console.log(courseinstrutor);
+console.log(instructure);
 
+// {
+//     "name":"ahmed",
+// "coursename":"js in hindi",
+// "price":"free"
+// }        //json method
+
+[
+    {},
+    {},
+    {}
+]
