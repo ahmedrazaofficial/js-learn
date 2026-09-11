@@ -28,8 +28,13 @@ function squareNumber(square1) {
 console.log(squareNumber(22))
 
 //5.
+function fullname(firstname, lastname) {
+    // return firstname +" "+ lastname
+    return `${firstname} ${lastname}`
 
+}
 
+console.log(fullname("Ahmed", "Raza"));
 
 //6.
 function userName(username) {
@@ -47,6 +52,10 @@ function sumThreeNumber(num1, num2, num3) {
 console.log(sumThreeNumber(2, 2, 2))
 
 //8.
+function defalutUsername(username = "Guest") {
+    return `${username} just logged in`
+}
+console.log(defalutUsername("Ahmed"));
 
 
 
