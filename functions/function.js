@@ -46,5 +46,35 @@ function loginUserMessage(username = "ibrahim") {
     return `${username} just logged in`
 }
 console.log(loginUserMessage())
-console.log(loginUserMessage(""))   
-// console.log(loginUserMessage())  //jab koi value pass nhi karoga toh undefined ayega 
+console.log(loginUserMessage(""))
+console.log(loginUserMessage())  //jab koi value pass nhi karoga toh undefined ayega 
+
+
+function calculateCardPrice(val1, val2, ...num) {
+    return num
+}
+console.log(calculateCardPrice(20, 20, 10, 27, 27));
+
+const user = {
+    username: "ahmed",
+    price: 199
+}
+function handleObject(anyObject) {
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`);
+
+}
+handleObject(user)
+
+// handleObject({
+//     username:"sam",
+//     price:200
+// })    direct object me lekh skhta ha alag se banana ke zaroorat nhi parege
+
+
+const newArray = [200, 400, 500, 600]
+function returnSecondValue(getArray) {
+    return getArray[1]
+}
+console.log(returnSecondValue(newArray));
+console.log(returnSecondValue([200, 100, 500, 600]));
+
