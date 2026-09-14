@@ -1,6 +1,6 @@
 //1.
 function printName(name) {
-    // console.log(name);
+    console.log(name);
 }
 printName("ahmed")
 printName("ahmed")
