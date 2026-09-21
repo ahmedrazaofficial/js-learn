@@ -15,3 +15,52 @@ A collection of JavaScript practice exercises as I learn the fundamentals of Jav
 - cd.. = back
 - format= shift + alt + f
 ``  =  backticks
+
+# Initialization
+
+`let i = 0;`
+
+# Condition
+
+`i < 10;`
+    
+# Scope
+
+`{...}`
+
+# Increment
+
+`i++`
+
+# Step 2
+
+`i = 10`  `i < 10`
+
+```text
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+```
+
+## Increment
+
+```text
+a = a + 1
+a += 1
+a++
+```
+
+## Decrement
+
+```text
+a = a - 1
+a -= 1
+a--
+```
