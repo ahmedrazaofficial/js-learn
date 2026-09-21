@@ -33,3 +33,11 @@ for (let index = 1; index <= 20; index++) {
     }
     console.log(index);
 }
+
+for (let index = 1; index <= 20; index++) {
+    if (index == 5) {
+        console.log("dectected 5");
+        continue
+    }
+    console.log(index);
+}
