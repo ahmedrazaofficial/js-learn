@@ -5,7 +5,7 @@ coding.forEach(function (val) {
 
 coding.forEach((val) => {
     console.log(val);
-})    // this is called arrow function method
+})    // this is called arrow method
 
 function printMe(item) {
     console.log(item);
