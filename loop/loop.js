@@ -14,7 +14,7 @@ for (let j = 0; j <= 10; j++) {
 
     for (let k = 0; k <= 10; k++) {
         console.log(`inner loop value ${k} and inner loop ${j}`);
-        console.log(j + ' * ' + k + ' = ' + j*k);
+        console.log(j + ' * ' + k + ' = ' + j * k);
 
     }
 }
