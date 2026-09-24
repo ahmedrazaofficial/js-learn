@@ -1,0 +1,40 @@
+const coding = ["js", "rb", "py", "java", "cpp"]
+
+const values = coding.forEach((item) => {
+    console.log(item);
+    return item
+})
+// console.log(values);
+
+
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+const newNum = myNums.filter((nums) => (nums > 4))
+console.log(newNum);
+
+
+
+const secondMethod = []
+myNums.forEach((num) => {
+    if (num > 4) {
+        secondMethod.push(num)
+    }
+})
+console.log(secondMethod);
+
+const books = [
+    { title: 'Book One', genre: 'Fiction', published: 1981, edition: 2004 },
+    { title: 'Book Two', genre: 'Non-Fiction', published: 1992, edition: 2008 },
+    { title: 'Book Three', genre: 'History', published: 1999, edition: 2007 },
+    { title: 'Book Four', genre: 'Non-Fiction', published: 1989, edition: 2010 },
+    { title: 'Book Five', genre: 'Science', published: 2009, edition: 2014 },
+    { title: 'Book Six', genre: 'Fiction', published: 1987, edition: 2010 },
+    { title: 'Book Seven', genre: 'History', published: 1986, edition: 1996 },
+    { title: 'Book Eight', genre: 'Science', published: 2011, edition: 2016 },
+    { title: 'Book Nine', genre: 'Non-Fiction', published: 1981, edition: 1989 }
+]
+let userBooks = books.filter((bk) => bk.genre === "History")
+userBooks = books.filter((bk) => {
+    return bk.published >= 1995 && bk.genre === "History"
+})
+console.log(userBooks);
