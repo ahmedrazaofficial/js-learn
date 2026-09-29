@@ -6,7 +6,7 @@ const cart = [
 ]
 let multiplication = cart.map((item) => item.price * item.quantity)
 console.log(multiplication);
-let final = cart.filter((item) => item.price * item.quantity >= 5000)
-console.log(final);
-let calculation = final.reduce((item, current) => item + current.price, 0)
-console.log(calculation);
+let final = multiplication.filter((item) => item.price * item.quantity >= 5000)
+// console.log(final);
+// let calculation = final.reduce((item, current) => item + current.price, 0)
+// console.log(calculation);
