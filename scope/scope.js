@@ -28,7 +28,7 @@ function one() {
 
 
 }
-// one()
+one()
 
 if (true) {
     const username="ahmed"

@@ -1,7 +1,5 @@
     // convert the string to number 
 
-
-
 const a = "25" // 25
 console.log(Number(a));
 
