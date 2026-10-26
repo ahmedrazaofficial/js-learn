@@ -4,21 +4,24 @@ const username = "anas_dev";
 const email = "anas@gmail.com";
 const age = 20;
 const password = "anas12345";
-if (username && email) {
+if (username) {
     console.log(`${username}  logged in`);
-    console.log(`${email} logged in`);
-
 
 } else {
-    console.log(`${username} does not logged in`);
-    console.log(`${email} does not logged in`);
+    console.log(`username not availabale`);
+
+} if (email) {
+    console.log(`${email} logged in`);
+} else {
+    console.log(`email not availabale`);
 }
 
-if (age >= 18 && password < 8) {
-    console.log(`${age} more than 18`);
-    console.log(`${password} less than 8 charcter`);
-
+if (age >= 18) {
+    console.log(`${age} will be availabale`);
 } else {
-    console.log(`${age} less than 18`);
-    console.log(`${password} more than 8 charcter`);
+    console.log(`age less than 18`);
+} if (password.length > 8) {
+    console.log(`${password} logged in `);
+} else {
+    console.log(`password not found`);
 }

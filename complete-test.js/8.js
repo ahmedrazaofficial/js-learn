@@ -5,8 +5,8 @@ const customer = {
     city: "Karachi",
     isVerified: false
 };
-customer.city="lahore"
-customer.isVerified=true
+customer.city = "lahore"
+customer.isVerified = true
 console.log(customer);
 console.log(Object.keys(customer));
 console.log(Object.values(customer));

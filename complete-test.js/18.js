@@ -7,4 +7,3 @@ let studentTotal = courses.map((check) => {
     return check.price * check.students
 })
 console.log(studentTotal);
-

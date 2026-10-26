@@ -16,6 +16,6 @@ console.log(updatedMember);
 let total = 0
 for (let i = 0; i < employees.length; i++) {
     const element = employees[i].salary;
-    total=total+element
+    total = total + element
 }
 console.log(total);

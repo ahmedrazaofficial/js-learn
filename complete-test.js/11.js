@@ -8,5 +8,5 @@ for (let i = 0; i < expenses.length; i++) {
 console.log(total);
 let average = total / 6
 console.log(average);
-let fewNumber=expenses.filter((num) => (num>2000)) 
+let fewNumber = expenses.filter((num) => (num > 2000))
 console.log(fewNumber);

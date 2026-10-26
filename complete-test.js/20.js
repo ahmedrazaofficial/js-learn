@@ -10,13 +10,13 @@ const transactions = [
 const credits = transactions
     .filter((item) => item.type === "credit")
     .reduce((acc, item) => acc + item.amount, 0);
-    console.log("Total Credits:", credits);
+console.log("Total Credits:", credits);
 
 
 const debits = transactions
     .filter(item => item.type === "debit")
     .reduce((acc, item) => acc + item.amount, 0);
-    console.log("Total Debits:", debits);
+console.log("Total Debits:", debits);
 
 const netBalance = credits - debits;
 console.log("Net Balance Change:", netBalance);
