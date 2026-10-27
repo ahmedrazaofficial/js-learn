@@ -4,3 +4,9 @@ const products = [
     { name: "Monitor", stock: 5, price: 25000 },
     { name: "USB", stock: 2, price: 1000 }
 ];
+let outOfStock = products.filter((item) => item.stock == 0)
+console.log(outOfStock);
+let availabale = products.filter((item) => item.stock > 0)
+console.log(availabale);
+let totalPrice = products.reduce((acc, stockPrice) => acc + (stockPrice.stock * stockPrice.price), 0)
+console.log(totalPrice);

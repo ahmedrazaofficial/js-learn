@@ -1,14 +1,13 @@
-// const correctPassword = "js12345";
-// const attempts = ["wrong123", "hello123", "js12345"];
-// for (let i = 0; i < attempts.length; i++) {
-//     const element = attempts[i];
-//     console.log(element);
-//     if (correctPassword == element) {
-//         console.log(element);
+const correctPassword = "js12345";
+const attempts = ["wrong123", "hello123", "js12345"];
+let isLocked = false;
 
-//         break
-//     }else{
-//         console.log("account locked");
-        
-//     }
-// }
+for (const attempt of attempts) {
+    if (attempt === correctPassword) {
+        isLocked = false;
+        break;
+    } else {
+        isLocked = true;
+    }
+}
+console.log(isLocked ? "Locked" : "Password successful");

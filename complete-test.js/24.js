@@ -21,5 +21,4 @@ let discount = products.map((item) => {
 })
 console.log(discount);
 
-let check = discount.filter((item) => item.price > 10000); console.log(check);
-
+let check = discount.filter((item) => item.finalPrice > 10000); console.log(check);

@@ -9,17 +9,9 @@ const response = {
 
 
 if (response.success) {
-    console.log("true");
+    const activeUsers = response.users.filter(user => user.active === true);
+    activeUsers.forEach(user => console.log(user.name));
 } else {
-    console.log("false");
+console.log("Something went wrong!");
+
 }
-
-let check = response.users.filter((users) => users.active === true); console.log(check);
-
-response.users.forEach((users) => {
-    if (users.active === true) {
-        console.log(users.name);
-    } else {
-        console.log("error")
-    }
-});

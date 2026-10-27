@@ -2,8 +2,9 @@
 let balance = 25000;
 const withdrawal = 8000;
 if (withdrawal && withdrawal <= balance) {
-    let final = balance - withdrawal
-    console.log(final);
+    // balance = balance - withdrawal;
+    balance -= withdrawal;
+    console.log(balance);
 } else {
-    console.log("error message");
+    console.log("Insufficient balance");
 }

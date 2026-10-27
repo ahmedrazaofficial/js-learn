@@ -9,5 +9,5 @@ const books = [
 let newBook = books.filter((book) => book.genre == "Programming" && book.year > 2020)
 console.log(newBook);
 
-let calculate = newBook.reduce((acc, item) => acc.price + item.price)
+let calculate = newBook.reduce((acc, item) => acc + item.price, 0)
 console.log(calculate);

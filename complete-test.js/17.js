@@ -13,4 +13,3 @@ console.log(member);
 
 let someMember = employees.filter((employe) => employe.salary >= 70000)
 console.log(someMember);
-

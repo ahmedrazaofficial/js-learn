@@ -14,15 +14,15 @@ const departments = [
         ]
     }
 ];
-let total = 0
+
 for (let i = 0; i < departments.length; i++) {
     const element = departments[i];
     console.log(element.employees);
 
-
+    let total = 0
     for (let j = 0; j < element.employees.length; j++) {
         const add = element.employees[j].salary;
         total = total + add;
     }
+    console.log(total);
 }
-console.log(total);

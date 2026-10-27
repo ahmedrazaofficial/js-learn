@@ -4,6 +4,12 @@ const courses = [
     { name: "Node.js", price: 4999, students: 20 }
 ];
 let studentTotal = courses.map((check) => {
-    return check.price * check.students
+    return {
+        ...check,
+        revenue: check.students * check.price
+    }
 })
 console.log(studentTotal);
+
+let totalRevinue = studentTotal.reduce((acc, item) => acc + item.revenue, 0)
+console.log(totalRevinue);
