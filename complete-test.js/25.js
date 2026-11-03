@@ -10,3 +10,20 @@ const cart = [
     { productId: 2, quantity: 2 },
     { productId: 3, quantity: 1 }
 ];
+for (let i = 0; i < cart.length; i++) {
+    const element = cart[i];
+    console.log(element);
+
+    for (let index = 0; index < products.length; index++) {
+        const check = products[index];
+        if (element.productId === check.id) {
+            if (element.quantity <= check.stock) {
+                console.log("Available");
+            } else {
+                console.log("Out of stock");
+            }
+        }
+
+    }
+
+}
