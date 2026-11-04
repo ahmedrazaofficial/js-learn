@@ -59,5 +59,3 @@ price1=100
 price2=200
 price3=300
 console.log(Array.of(price1,price2,price3));
-
-

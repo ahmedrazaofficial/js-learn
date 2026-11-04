@@ -46,7 +46,3 @@ console.log(numbers);
 const number = [1, 2, 3, 4, 5, 6];
 number.splice(2,3)
 console.log(number);
-
-
-
-
