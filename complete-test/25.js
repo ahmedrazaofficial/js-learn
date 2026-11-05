@@ -14,7 +14,6 @@ const accepted = []
 const rejected = []
 for (let i = 0; i < cart.length; i++) {
     const element = cart[i];
-    // console.log(element);
 
     for (let index = 0; index < products.length; index++) {
         const check = products[index];
@@ -28,24 +27,27 @@ for (let i = 0; i < cart.length; i++) {
     }
 }
 console.log("Available products: ", accepted.map((item) => item.name));
-console.log("Not available products: ", rejected.map((item) => item.name));
+console.log("Not available products: ", rejected.map((item) => item.name), "\n");
+// "\n"  =>  break line 
 
-
-for (let i = 0; i < products.length; i++) {
+let total = 0
+for (let i = 0; i < accepted.length; i++) {
     const element = accepted[i];
 
     for (let j = 0; j < cart.length; j++) {
         const item = cart[j];
 
         if (element.id === item.productId) {
-            let add = accepted.reduce((acc, add) => acc + add.price * item.quantity, 0)
-            console.log(add);
+            const subtotal = element.price * item.quantity
+            console.log(`${element.name}: ${element.price} x ${item.quantity} = Rs. ${subtotal}`);
+            total += subtotal
         }
     }
 }
-
-// {
-
-//     return acc + add.price
-// }, 0)
-// console.log(add);
+console.log(`Total price: ${total}`);
+if (total >= 50000) {
+    let discount = total * 5 / 100
+    console.log(`Discount: ${discount}`);
+    total -= discount
+    console.log(`After discount bill: ${total}`);
+}
