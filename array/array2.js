@@ -10,7 +10,6 @@ console.log(allNames);  //concat yah array ko combine kardeta ha mila deta ha
 const combineNames = [...gentsNames, ...ladiesNames]
 console.log(combineNames);  //isko spread kheta ha yah zyada tar use hota ha 
 
-
 const anotherArray = [1, 2, 3, 4, [5, 6, 7], 8, [7, 8, [8, 9, 7]]]
 const newAnotherArray = anotherArray.flat(1)
 console.log(newAnotherArray);
@@ -18,7 +17,6 @@ console.log(newAnotherArray);
 console.log(Array.isArray("ahmed")); //yah array nhi ha string ha isliya false diya
 console.log(Array.from("ahmed"));
 console.log(Array.from({ name: "ahmed" }));
-
 
 let score1 = 100
 let score2 = 200

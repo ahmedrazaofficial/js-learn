@@ -38,12 +38,8 @@ console.log(pracDate.toLocaleString('default', {
 })
 );
 
-
-
 let ms = 100000000
 console.log(ms / 1000 / 60 / 60 / 24 / 30 / 12);
 
 let decade = 5
 console.log(decade * 10 * 12 * 30 * 24 * 60 * 60 * 1000);
-
-

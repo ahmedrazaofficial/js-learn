@@ -18,7 +18,6 @@ const newnum = [1, 2, 3, 4, 5]
 newnum.unshift(100)
 console.log(newnum);
 
-
 //5.
 const newnaam = ["ahmed", "anas", "ahsan", "jaweria", "doremon"]
 newnaam.shift()

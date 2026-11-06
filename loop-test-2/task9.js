@@ -6,5 +6,4 @@ const employees = [
 let bonus = employees
     .map((item) => item.salary + 5000)
     .filter((item) => item >= 75000)
-
 console.log(bonus);

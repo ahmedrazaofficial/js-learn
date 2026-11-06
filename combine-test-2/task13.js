@@ -4,4 +4,3 @@ function observe(){
 console.log(observe().naam);
 console.log(observe.naam);
 console.log(naam);
-

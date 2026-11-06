@@ -5,7 +5,6 @@ console.log(final);
 
 /*   ************************        OR      ***************************   */
 
-
 marks.forEach((item) => {
     if (item >= 50) {
         console.log(item);

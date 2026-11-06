@@ -9,7 +9,6 @@ employees.forEach((member) => {
     console.log(member.name, member.salary);
 })
 
-
 let updatedMember = employees.filter((increase) => (increase.salary >= 70000))
 console.log(updatedMember);
 

@@ -14,11 +14,8 @@ students.forEach((student) => {
     }
 });
 
-
 const passedStudents = students.filter((student) => student.marks >= 40);
 console.log("Passed Students:", passedStudents);
-
-
 
 let total = 0
 for (let i = 0; i < students.length; i++) {

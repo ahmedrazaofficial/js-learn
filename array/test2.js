@@ -23,19 +23,11 @@ const array1=[10, 20, 30, 40, 50, 60]
 console.log(array1.slice(2,5));
 console.log(array1);
 
-
-
-
 // //6.
 const array=[1, 2, 3, 4, 5, 6]
 
 const arr=array.splice(1,3)
 console.log(arr);
-
-
-
-
-
 
 //7.
 const boys=["anas","ahsan","ahmed"]
@@ -50,7 +42,6 @@ console.log([...boy,...girl]);
 //9.
 const num=[1, 2, [3, 4], 5, [6, 7]]
 console.log(num.flat(1));
-
 
 //10.
 const naam="ahmed"

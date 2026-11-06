@@ -33,12 +33,9 @@ const addThreeNumber = (num1, num2, num3) => {
 }
 console.log(addThreeNumber(2, 3, 4));
 
-
-
 const addTwoNumber = (num1, num2) => (num1 + num2) // const addTwoNumber = (num1, num2) => num1 + num2
 //jab ap curly bracket me lekhta ho toh return lekhna hota ha agr ap (num1, num2) => (num1 + num2) esa arrow ka bad
 //  plus jo ha oss ko bracket me lekhoga toh apku return nhi lekhna hoga or agr object ko bhi return karna hoga toh oss 
 //    ko bhi () iss me rakh kar karega
 
 console.log(addTwoNumber(5, 5));
-

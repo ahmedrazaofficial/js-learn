@@ -7,5 +7,4 @@ if (tempreature >= 40) {
     console.log("normal");
 } else {
     console.log("cold");
-
 }
