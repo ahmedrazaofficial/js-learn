@@ -49,4 +49,4 @@ function handleEditClick(id) {
     isUpdating = true;
     updatingId = id;
     btnSubmit.textContent = "Update"
-}
+}   
